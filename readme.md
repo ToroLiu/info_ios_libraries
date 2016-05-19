@@ -9,9 +9,14 @@
 - [UI](#ui)
   - [未分類](#uncategory)
   - [Side ViewController](#side-viewcontroller)
-- [SQLite](#sqlite)
-- [Resources](#resources)
-- [Log][#log]
+  - [Cover Flow](#cover-flow)
+  - [PageView Controller](#pageview-controller)
+  - [UICollectionViewLayout相關](#uicollectionviewlayout-相關)
+  - [Progress](#progress)
+  - [Popup](#popup)
+  
+- [Utilities](utility.md)  
+- [Resources](resource.md)
 
 ## UI
 
@@ -84,43 +89,5 @@
 - [Popover](https://github.com/corin8823/Popover)
   - 提供了幾個樣式，可以參考。
 
-## SQLite
-  - [SQLite.swift][sqlite.swift]
-    - 看起來不錯。在特色裡面，有一項[Well-documented](https://github.com/stephencelis/SQLite.swift/blob/master/Documentation/Index.md#sqliteswift-documentation)
-  - [SQLiteMigrationManager](https://github.com/garriguv/SQLiteMigrationManager.swift)
-    - 可以搭配[SQLite.swift][sqlite.swift]使用。版本有點新，覺得還有進化的可能。
-    - 以目前看到的程式，如果只有一個.sqlite的話，應該是夠用的。怎麼說呢…？像MS的Entity Framework，在2014之前，它的migration可以支援多個db的行為。那個migration table需要額外記一些東西。目前的SQLiteMigrationManager(v0.0.5)還沒有這個能力。一般而言是不會有這個需求的。只是看了一下程式碼，得到的心得。
 
-[sqlite.swift]: https://github.com/stephencelis/SQLite.swift
-
-## Log
-- [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack)
-  - 有Obj-C。
-  - 在ObjC用過，還蠻不錯的。也可以設定多種Log的方式。和自定Log Level。
-  - Swift下，似乎不太一樣就是了。
-- [CleanroomLogger](https://github.com/emaloney/CleanroomLogger)
-  - 純Swift。瞄了一下，它做的也不錯。
-  - 該有的東西都有…。
-  - 還蠻新的，我看到的時候，star數還沒破千。可是CocoaLumberjack己經7千多了。這個值得期待，但現階段可以觀望一下。
-
-## Resources
-- [iOS Project study](https://www.raywenderlich.com/55384/ios-7-best-practices-part-1)
-  - 裡面有介紹幾個，不錯的3rd party元件。
-  - WebService。讀取JSON資料，轉換成App UI。
-- Sub projects vs library
-  1. http://www.galloway.me.uk/tutorials/ios-library-with-resources/
-    - 一個Sample project。包含了Library的部份，和Application，引入Library的範例。它是用Static library。
-- [Swift Style Guide](https://github.com/raywenderlich/swift-style-guide)
-  - 快速上手Swift用的。
-- [iOS Cookies](http://www.ioscookies.com)
-  - iOS各種技術的大補帖？
-  -『這個網站對iOS開發者很補, 用各種技術主題整理的相當好』"
-- [Awesome Swift](https://github.com/matteocrippa/awesome-swift)
-  - 聽說這個很厲害…。裡面會推薦很多Library，而且有分類。
-- [3rd Party Library for iOS](https://github.com/iOSBeginner/3rd-Party-Library-for-iOS#ui-design)
-  - 作者己經收集了，很多3rd party的Library。需要找東西，可以參考一下。
-- [AppCoda](http://www.appcoda.com)  
-  - 沒事可以來看一下。很多教學文件。可以當做看新聞，休閒娛樂用的。
-- [code4app](http://www.code4app.net/index.html)
-  - 找3rd party元件用的。
 
