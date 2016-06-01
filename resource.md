@@ -19,4 +19,5 @@
   - 沒事可以來看一下。很多教學文件。可以當做看新聞，休閒娛樂用的。
 - [code4app](http://www.code4app.net/index.html)
   - 找3rd party元件用的。
-
+- [幾個省時間的Library](https://ios.james.ooo/9-time-saving-ios-7-libraries-43e943e6627#.vofrhpsv1)
+  - 裡面介紹的Library不多，但應該很實用。

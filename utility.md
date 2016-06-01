@@ -2,6 +2,7 @@
 ## 目錄
   - [SQLite](#sqlite)
   - [Log](#log)
+  - [Zip](#zip)
 
 ## SQLite
   - [SQLite.swift][sqlite.swift]
@@ -21,3 +22,25 @@
   - 純Swift。瞄了一下，它做的也不錯。
   - 該有的東西都有…。
   - 還蠻新的，我看到的時候，star數還沒破千。可是CocoaLumberjack己經7千多了。這個值得期待，但現階段可以觀望一下。
+- [PlCrashReporter](https://www.plcrashreporter.org)
+
+### Crash report related
+- [Overview of iOS Crash Reporting Tools: Part 1](https://www.raywenderlich.com/33669/overview-of-ios-crash-reporting-tools-part-1)
+  - 雖然只是Part I。但是提供了不少，要付費，也有些是免費的Crash Report的服務。
+  - 最後建議，在iOS上使用Crashlytics。找了其它的文章，它被Twitter收購。而且，[似乎保障它是免費的](http://www.crashlytics.com/blog/crashlytics-enterprise-is-now-free/)。
+  - [Crashlytics, docs](https://docs.fabric.io/ios/crashlytics/crashes-and-issues.html)
+- [QuincyKit](https://github.com/bitstadium/QuincyKit)
+  - 這個，需要自己架Server。[從Stackoverflow上撿來的](http://stackoverflow.com/a/11313132/419348)。
+- [Google Anylytics for iOS](https://developers.google.com/analytics/devguides/collection/ios/v3/?ver=swift#get-config)  
+  - 呃…Google耶
+
+## Zip
+- [ZipArchive](https://github.com/mattconnolly/ZipArchive)
+  - ZipArchive的名稱還蠻多人用的呀。這個是專案有用到的。都會用到*minizip*這個。
+- [ZipArchive](https://github.com/ZipArchive/ZipArchive)  
+  - SSZipArchive
+  - 也是會用到*minizip*。看來，也是再包一層。
+
+## Cache
+- [TMCache](https://github.com/tumblr/TMCache/)
+  - [它將不會繼續維護了。有點可惜。](https://cocoa.tumblr.com/post/118790665043/tmcache-is-no-longer-being-actively-maintained)

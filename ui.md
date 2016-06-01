@@ -7,6 +7,7 @@
 - [UICollectionViewLayout相關](#uicollectionviewlayout-相關)
 - [Progress](#progress)
 - [Popup](#popup)
+- [UITableView](#uitableview)
 
 
 ### Uncategory
@@ -67,6 +68,17 @@
   - 像瀑布一樣的Layout。看了一下，覺得很像Windows 8的一堆方塊牆。
 - [MSCollectionViewCalendarLayout](https://github.com/erichoracek/MSCollectionViewCalendarLayout)
   - 像Calendar的Layout。目前用不到，但瞄了一下，覺得很強大。
+- [CSStickyHeaderFlowLayout](https://github.com/jamztang/CSStickyHeaderFlowLayout)  
+  - 看起來蠻厲害的。它的star數相當的高。
+  - 也是實作出像UITableView的樣子，但做了更多的客製化效果。
+- [PDKTStickySectionHeadersCollectionViewLayout](https://github.com/Produkt/PDKTStickySectionHeadersCollectionViewLayout)  
+  - 值得參考的一個範例。它實作出和UITableView和相似的行為，然後由protocol決定，section是否要黏在上面。
+- 教學文件
+  - https://www.raywenderlich.com/107439/uicollectionview-custom-layout-tutorial-pinterest
+    - 看完上面這篇，它提供的其它連結
+      - [Creating Custom Layouts](https://developer.apple.com/library/ios/documentation/WindowsViews/Conceptual/CollectionViewPGforIOS/CreatingCustomLayouts/CreatingCustomLayouts.html)
+  - [UICollectionView class reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UICollectionView_class/) 
+    - 這個頁面，會說明什麼是`Decoration view`，和`Supplementary view`
     
 
 ### Progress
@@ -77,3 +89,16 @@
 跳出Popup的小畫面。某些情形下，這個東西會很好用。
 - [Popover](https://github.com/corin8823/Popover)
   - 提供了幾個樣式，可以參考。
+  - 還蠻好用的。在計算start point需要小心一些。
+
+### UITableView
+- [MGSwipeTableCell](https://github.com/MortimerGoro/MGSwipeTableCell)
+  - 如果有需要的話，要參考這邊的實作…。可以Swipe的Cell。
+
+### Charts
+- [Charts](https://github.com/danielgindi/Charts)  
+  - 功能應該很強大。star數看到的時候己經九千多了…。
+  - 因為很強大，所以難以理解和學習吧…。
+- [SwiftChart](https://github.com/gpbl/SwiftChart)
+  - 開發沒多久的一個Library。看起來簡單多了…。比較適合拿來修改？
+
