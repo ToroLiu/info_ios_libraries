@@ -44,3 +44,9 @@
 ## Cache
 - [TMCache](https://github.com/tumblr/TMCache/)
   - [它將不會繼續維護了。有點可惜。](https://cocoa.tumblr.com/post/118790665043/tmcache-is-no-longer-being-actively-maintained)
+  - 從上述這篇，TMCache有推薦使用PINCache。如果有需要的話…。
+- [PINCache](https://github.com/pinterest/PINCache)  
+  - 從TMCache fork出來的。TMCache有thread starvation的問題。從PINCache這邊的說法，如果重度使用TMCache的話，會有dead lock的問題。
+- [SDWebImage](https://github.com/rs/SDWebImage)
+   - Star數相當的高，有蠻多人關注和使用。
+   - 瞄了一下。這拿來處理Image cache，會非常好用。大多數的Cache，應該都是和Image cache有關係吧…。
