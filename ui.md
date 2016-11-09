@@ -133,6 +133,7 @@
 因為iOS的UISwitch，它的size是固定的。可是客製後的UI，size通常不太一樣，於是就有客製化的Switch的需求。
 - [SevenSwitch](https://github.com/bvogelzang/SevenSwitch)
   - Google找到的，然後是用Swift語法寫成。看了一下，算是符合需求了。
+  - 原作者沒有繼續維護。有些可惜。目前沒有支援Swift3。有人fork後，另外整理成支援Swift3了。
 
 ### MISC
 - [CRToast](https://github.com/cruffenach/CRToast)
