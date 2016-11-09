@@ -3,6 +3,7 @@
   - [SQLite](#sqlite)
   - [Log](#log)
   - [Zip](#zip)
+  - [Cache](#cache)
 
 ## SQLite
   - [SQLite.swift][sqlite.swift]

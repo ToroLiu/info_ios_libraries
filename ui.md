@@ -8,7 +8,11 @@
 - [Progress](#progress)
 - [Slide Bar](#slide-bar)
 - [Popup](#popup)
+
 - [UITableView](#uitableview)
+- [Pull Refresh](#pull-refresh)
+
+- [Switch](#switch)
 - [Misc](#misc)
 
 ### Uncategory
@@ -107,6 +111,14 @@
 ### UITableView
 - [MGSwipeTableCell](https://github.com/MortimerGoro/MGSwipeTableCell)
   - 如果有需要的話，要參考這邊的實作…。可以Swipe的Cell。
+- [Self-sizing Table View Cells](https://www.raywenderlich.com/129059/self-sizing-table-view-cells)  
+  - 動態調整高度的Cell。這邊的AutoLayout很強大呀。
+
+### Pull Refresh
+下拉更新的UI元件。
+
+- [DGElasticPullToRefresh](https://github.com/gontovnik/DGElasticPullToRefresh)
+  - 找支援Swift3，可以下拉更新的UI元件時，找到這一個。因為最近Apple釋出Swift3，本來這類的元件很多，但是有支援Swift3的不多就是了。
 
 ### Charts
 - [Charts](https://github.com/danielgindi/Charts)  
@@ -117,9 +129,15 @@
 - [JBChartView](https://github.com/Jawbone/JBChartView)
   - Obj-C所寫成的。因為Fabric的App有引入這個License，所以就拿來看一下。
 
+### Switch
+因為iOS的UISwitch，它的size是固定的。可是客製後的UI，size通常不太一樣，於是就有客製化的Switch的需求。
+- [SevenSwitch](https://github.com/bvogelzang/SevenSwitch)
+  - Google找到的，然後是用Swift語法寫成。看了一下，算是符合需求了。
+
 ### MISC
 - [CRToast](https://github.com/cruffenach/CRToast)
   - 用來客製化Notification UI的效果，感覺會很好用。
+  - 在iOS 10，Notification的框架有改變。有系統的Framework可以呈現Notification UI。而且，花樣也變多了，支援更多的格式，用來呈現Notification。
 - [EasyTipView](https://github.com/teodorpatras/EasyTipView)  
   - 用來呈現，App的使用教學。可以顯示一個小小的Tip。看了一下，感覺還蠻漂亮的。
   - EasyTipView is a fully customizable tooltip view written in Swift that can be used as a call to action or informative tip.
@@ -130,3 +148,6 @@
   - 又是個神奇的東西。怎麼會有人，想到把`front view controller`的概念，搬到iOS dev上呢。這是用來實現，現在常見的網頁MVC架構的神奇工具呀。iOS可以吃openURL的東西，通常是別的App呼叫自己的App時，會使用URL傳東西過來…。有這個Library，可以讓這類型的開發，整個變的容易，好管理。寫過asp.net MVC/WebAPI，或是Django之類的，應該會很有感覺吧。
 - [FlatUIKit](https://github.com/Grouper/FlatUIKit)  
   - 為了繪製自己的SliderBar，後來找到這一個。它裡面有`UIImage+FlatUI`的extension，可以幫忙繪製出`UISlider`所需要的圖。還有其它`UIKit`的extension，看起來也不錯用。是個值得花時間，閱讀一下的3rd party程式碼。
+- [DeviceKit](https://github.com/dennisweissmann/DeviceKit)  
+  - 為了解決一個需求，想知道用戶的iPhone的型號，像是iPhone 5s, iPhone 6 plus之類的資訊，於是找到這一個東西。
+  - 它支援Swift3的語法唷。
