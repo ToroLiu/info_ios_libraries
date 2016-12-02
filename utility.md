@@ -15,6 +15,9 @@
 [sqlite.swift]: https://github.com/stephencelis/SQLite.swift
 
 ## Log
+- [XCGLogger](https://github.com/DaveWoodCom/XCGLogger)
+  - 適合Swift的Log系統。CocoaLumberjack覺得有點陳舊了，之前想整合Crashlytics的Log系統，總是有些問題。希望XCG這個會比較好一點。
+  - 目前只是觀望，從文件上覺得這個還蠻值得期待，但還沒有使用過。
 - [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack)
   - 有Obj-C。
   - 在ObjC用過，還蠻不錯的。也可以設定多種Log的方式。和自定Log Level。
