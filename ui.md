@@ -152,3 +152,6 @@
 - [DeviceKit](https://github.com/dennisweissmann/DeviceKit)  
   - 為了解決一個需求，想知道用戶的iPhone的型號，像是iPhone 5s, iPhone 6 plus之類的資訊，於是找到這一個東西。
   - 它支援Swift3的語法唷。
+- [SwiftRichString](https://github.com/malcommac/SwiftRichString)  
+  - Attributed Strings的Library。可以讓字串的各種Style的套用，變的很優雅。
+  - 看完了一開始的簡介，Easy Styling，我就迷上這個Library了。用它來處理字串中套用各種的Style變的很簡單。
