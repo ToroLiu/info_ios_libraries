@@ -59,3 +59,10 @@
 - [SDWebImage](https://github.com/rs/SDWebImage)
    - Star數相當的高，有蠻多人關注和使用。
    - 瞄了一下。這拿來處理Image cache，會非常好用。大多數的Cache，應該都是和Image cache有關係吧…。
+- [Cache](https://github.com/hyperoslo/Cache)
+   - 後來捨棄了`TMCache`，改用了這一套。它和Swift的`Codable`搭配起來，很多事情變的很簡單。
+- [Imaginary](https://github.com/hyperoslo/Imaginary)
+   - 這個是用來處理Image cache。它提供了一些方便的寫法，擴充了UIImageView的功能。使得從URL取影像變的簡潔多了。而背後的快取和加速之類的，它會幫你處理掉。
+   - 和上面那個Cache是同個作者寫的，底層也是用`Cache`當成影像快取。
+
+
