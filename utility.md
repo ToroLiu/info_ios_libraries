@@ -65,4 +65,7 @@
    - 這個是用來處理Image cache。它提供了一些方便的寫法，擴充了UIImageView的功能。使得從URL取影像變的簡潔多了。而背後的快取和加速之類的，它會幫你處理掉。
    - 和上面那個Cache是同個作者寫的，底層也是用`Cache`當成影像快取。
 
-
+## String
+- [BonMot](https://github.com/Raizlabs/BonMot)
+   - 唸成Bon Mo，是法文，指的是Good Word。
+   - AttributedString的加強版，讓套用Style的語法變的簡潔。然後套用圖檔似乎也比較容易一些。比較特別的是，它可以用來處理一些自定義的XML tag。針對那些tag套用自己定義的style。
