@@ -69,3 +69,7 @@
 - [BonMot](https://github.com/Raizlabs/BonMot)
    - 唸成Bon Mo，是法文，指的是Good Word。
    - AttributedString的加強版，讓套用Style的語法變的簡潔。然後套用圖檔似乎也比較容易一些。比較特別的是，它可以用來處理一些自定義的XML tag。針對那些tag套用自己定義的style。
+   - 用了之後，可能最近升級到Xcode 9.2的關係，照著文件上的語法敲了幾次，編譯過不了。最後放棄。
+- 關於NSAttributedstring的處理
+  它有個簡易的方式可以將html的字串，轉成相對應的attributedString。這方法很容易找到，而且也沒幾行，很適合包成一個小小的Utility function。然後呢，它也會處理html裡的css style。所以可以在程式裡面，將css寫在html string之前，這樣就能套用客製化的App style了。
+
