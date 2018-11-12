@@ -13,8 +13,8 @@
 - [Pull Refresh](#pull-refresh)
 
 - [Switch](#switch)
+- [ImagePicker](#image-picker)
 - [Misc](#misc)
-- [ImagePicker][#image-picker]
 
 ### Uncategory
 
