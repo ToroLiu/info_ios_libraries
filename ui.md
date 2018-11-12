@@ -14,6 +14,7 @@
 
 - [Switch](#switch)
 - [Misc](#misc)
+- [ImagePicker][#image-picker]
 
 ### Uncategory
 
@@ -29,8 +30,6 @@
 - [Async](https://github.com/duemunk/Async)
   - Syntactic sugar in Swift for asynchronous dispatches in Grand Central Dispatch
   - 從它的說明範例看來，這個非常的好用。
-- [DeviceKit](https://github.com/dennisweissmann/DeviceKit)
-  - 用來查詢mobile device的狀態。像是機型、電池資訊等等。
 
 ### Side ViewController
 - [SlideMenuControllerSwift](https://github.com/dekatotoro/SlideMenuControllerSwift)
@@ -135,6 +134,11 @@
   - Google找到的，然後是用Swift語法寫成。看了一下，算是符合需求了。
   - 原作者沒有繼續維護。有些可惜。目前沒有支援Swift3。有人fork後，另外整理成支援Swift3了。
 
+### Image Picker
+- [CameraManager](https://github.com/imaginary-cloud/CameraManager)
+  - 從release的記錄看來，目前(2018/11)都還有在維護。看到的時候己經出到了4.3.0的版本了。
+  - 有些Image Picker需要客製UI。而這邊把Camera需要的功能包在CameraManager。主要是把AVCaptureSession封裝起來了。[這一篇Blog有介紹](https://www.imaginarycloud.com/blog/camera-manager/)，我是先找到Blog，才找到github的。
+
 ### MISC
 - [CRToast](https://github.com/cruffenach/CRToast)
   - 用來客製化Notification UI的效果，感覺會很好用。
@@ -143,7 +147,7 @@
   - 用來呈現，App的使用教學。可以顯示一個小小的Tip。看了一下，感覺還蠻漂亮的。
   - EasyTipView is a fully customizable tooltip view written in Swift that can be used as a call to action or informative tip.
   - MIT License
--  [FLEX](https://github.com/Flipboard/FLEX)
+- [FLEX](https://github.com/Flipboard/FLEX)
   - 一個很神奇的Debug tool。它是In-app的。在UIWindow上會有一個按鈕，可以把它叫出來。似乎能任意的調整UI的properties，看system log，還有network request&response…。還能看SQLite資料庫!??感覺很神奇。
 - [JLRoutes](https://github.com/joeldev/JLRoutes)
   - 又是個神奇的東西。怎麼會有人，想到把`front view controller`的概念，搬到iOS dev上呢。這是用來實現，現在常見的網頁MVC架構的神奇工具呀。iOS可以吃openURL的東西，通常是別的App呼叫自己的App時，會使用URL傳東西過來…。有這個Library，可以讓這類型的開發，整個變的容易，好管理。寫過asp.net MVC/WebAPI，或是Django之類的，應該會很有感覺吧。
